@@ -13,7 +13,7 @@
  <tr>
  <th class="px-4 py-2">{{ __("Nombre") }}</th>
  <th class="px-4 py-2">{{ __("Autor") }}</th>
- <th class="px-4 py-2">{{ __("Alta") }}</th>
+ <th class="px-4 py-2">{{ __("Creado") }}</th>
  <th class="px-4 py-2">{{ __("Acciones") }}</th>
  </tr>
  </thead>

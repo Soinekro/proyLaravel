@@ -17,8 +17,8 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-blue-900 py-6">
-            <div class="container mx-auto flex justify-between items-center px-2">
+        <header class="bg-blue-900 py-4">
+            <div class="container mx-3 flex justify-between items-center px-0">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
                         {{ config('app.name', 'Laravel') }}
@@ -45,9 +45,9 @@
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
-
+                            <br>
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
+                           class="no-underline hover:underline px-32"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
